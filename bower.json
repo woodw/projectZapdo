@@ -1,0 +1,27 @@
+{
+  "name": "projectzapdo",
+  "description": "This is an angular project",
+  "main": "index.js",
+  "authors": [
+    "bill wood <billwood.dev@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/woodw/projectZapdo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}

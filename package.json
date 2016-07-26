@@ -1,0 +1,30 @@
+{
+  "name": "projectzapdo",
+  "version": "1.0.0",
+  "description": "This is an angular project",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodw/projectZapdo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woodw/projectZapdo/issues"
+  },
+  "homepage": "https://github.com/woodw/projectZapdo#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
