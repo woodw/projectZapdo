@@ -1,15 +1,17 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="zapdoModule">
     <head>
         <meta charset="utf-8">
         <title>Project Zapdo</title>
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
         <script src="bower_components/angular/angular.js"></script>
+        <script src="app.js"></script>
     </head>
-    <body>
+    <body ng-controller="zapdoController">
         <ul>
-            <li>Here is an item</li>
-            <li>Here is an item 2</li>
+            <li ng-repeat="person in person">
+                <p>{{person.name}}</p>
+            </li>
         </ul>
     </body>
 </html>

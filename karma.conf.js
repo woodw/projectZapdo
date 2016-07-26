@@ -11,9 +11,9 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-mocks/angular-mocks.js',
       '**/*.module.js',
-      '*!(.module|.spec).js',
-      '!(bower_components)/**/*!(.module|.spec).js',
-      '**/*.spec.js'
+      '*!(.module|-test).js',
+      '!(bower_components)/**/*!(.module|-test).js',
+      '**/*-test.js'
     ],
 
     autoWatch: true,
