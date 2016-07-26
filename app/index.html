@@ -2,14 +2,15 @@
 <html lang="en" ng-app="zapdoModule">
     <head>
         <meta charset="utf-8">
-        <title>Project Zapdo</title>
+        <title>Project {{properties.name}}</title>
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
         <script src="bower_components/angular/angular.js"></script>
         <script src="app.js"></script>
     </head>
     <body ng-controller="zapdoController">
+        <p>Total number of people: {{properties.person.length}}</p>
         <ul>
-            <li ng-repeat="person in person">
+            <li ng-repeat="person in properties.person">
                 <p>{{person.name}}</p>
             </li>
         </ul>
