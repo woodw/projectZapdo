@@ -1,7 +1,6 @@
 {
   "name": "projectzapdo",
   "description": "This is an angular project",
-  "main": "index.js",
   "authors": [
     "bill wood <billwood.dev@gmail.com>"
   ],
